@@ -49,3 +49,48 @@ body {
     top: 100%;
     left: 0;
     }
+
+ rect {
+   fill: none;
+   pointer-events: all;
+ }
+
+ .feature {
+   fill: #ddd;
+   stroke: 0px;
+   cursor: pointer;
+ }
+
+ .feature.active {
+   fill: orange;
+ }
+
+ .mesh {
+   fill: none;
+   stroke: blue;
+   stroke-width: 2px;
+   stroke-linejoin: round;
+   stroke-dasharray: 1,2;
+ }
+
+ .district-label {
+   fill: black;
+   font-size: 14px;
+   font-weight: 200;
+   text-anchor: middle;
+ }
+
+ .precincts {
+   fill: none;
+   stroke-width: .3px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke: gray;
+   visibility:visible;
+ }
+
+ text {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 9px;
+   pointer-events: none;
+ }
